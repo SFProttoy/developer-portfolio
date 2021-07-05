@@ -7,6 +7,10 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .first-left .head-2 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -72,4 +76,48 @@ h1 {
 
 .child-1 p {
   margin-bottom: 25px;
+}
+
+.Sec-3 {
+  display: flex;
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.Sec-3 h3 {
+  color: rgb(241, 112, 92);
+}
+
+.child-3 {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: -10px 10px 40px gray;
+}
+
+.child-3 p {
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+#pro-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, red);
+  border-image-slice: 1;
+}
+
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
